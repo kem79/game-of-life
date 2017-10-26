@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo %windir%
+                cmd 'echo %windir%'
             }
         }
     }
